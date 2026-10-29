@@ -1,5 +1,5 @@
 def main():
-    print("Hello from dbt-youtube-cource-practics1!")
+    print("Hello from dbt-cource-practics1!")
 
 
 if __name__ == "__main__":
