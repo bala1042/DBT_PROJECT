@@ -1,4 +1,4 @@
-ansh_dbt_youtube:
+DBT_Projects:
   outputs:
     dev:
       catalog: dbt_tutorial_dev
@@ -7,7 +7,7 @@ ansh_dbt_youtube:
       schema: default
       threads: 1
       token: *********************
-      type: databricks
+      type: **********
     prod:
       catalog: dbt_tutorial_prod
       host: dbc-e772c943-8edb.cloud.databricks.com
@@ -15,5 +15,5 @@ ansh_dbt_youtube:
       schema: default
       threads: 1
       token: *********************
-      type: databricks
+      type: *********
   target: dev
