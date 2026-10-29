@@ -1,0 +1,32 @@
+[0m12:33:05.003821 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DDAD0D49E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DDB13D8D70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DDB13D9B20>]}
+
+
+============================== 12:33:05.362165 | ac53b770-b68b-4aca-9a72-078a3044c168 ==============================
+[0m12:33:05.362165 [info ] [MainThread]: Running with dbt=1.11.2
+[0m12:33:05.364172 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\hp\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt init', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m12:33:58.165078 [debug] [MainThread]: Starter project path: E:\Desktop_shortcuts\DBT_practics\DBT_youtube_cource_practics1\.venv\Lib\site-packages\dbt\include\starter_project
+[0m12:33:58.280109 [info ] [MainThread]: 
+Your new dbt project "ansh_dbt_youtube" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m12:33:58.283108 [info ] [MainThread]: Setting up your profile.
+[0m12:34:48.747145 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m12:34:48.747145 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m12:34:48.747145 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m12:39:54.906191 [info ] [MainThread]: Profile ansh_dbt_youtube written to C:\Users\hp\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m12:39:54.911188 [debug] [MainThread]: Command `dbt init` succeeded at 12:39:54.911188 after 410.26 seconds
+[0m12:39:54.912187 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DDAD7D56A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DDBF31B0B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DDBF05EBD0>]}
+[0m12:39:54.913187 [debug] [MainThread]: Flushing usage events
+[0m12:39:58.312321 [debug] [MainThread]: An error was encountered while trying to flush usage events
