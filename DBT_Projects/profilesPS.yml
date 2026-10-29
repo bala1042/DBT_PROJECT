@@ -1,4 +1,4 @@
-ansh_dbt_youtube:
+DBT_Projects:
   outputs:
     dev:
       catalog: dbt_tutorial_dev
@@ -7,5 +7,5 @@ ansh_dbt_youtube:
       schema: default
       threads: 1
       token: **************
-      type: databricks
+      type: ***********
   target: dev
